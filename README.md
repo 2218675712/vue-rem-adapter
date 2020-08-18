@@ -1,24 +1,5 @@
-# vue-bilibili
+# rem适配使用
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 首先下载依赖
+2. 新建一个h1标签,给他大小设置为1rem,然后在浏览器中切换到手机模式,检查他的高度,这个数值就是rem和像素直接的比值
+3. webstorm下载px2rwd插件,将这个比例值放入到插件里面
